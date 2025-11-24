@@ -10,7 +10,11 @@ function App() {
       <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-blue-300 font-extrabold text-xl">CB</div>
+            <img
+              src="/Logo.png"
+              alt="Clinicabot logo"
+              className="w-10 h-10 rounded-full object-cover"
+            />
             <div>
               <h1 className="text-xl font-bold tracking-tight">Clinicabot</h1>
               <p className="text-xs text-gray-500">WhatsApp health companion</p>
