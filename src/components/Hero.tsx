@@ -25,7 +25,8 @@ return(
 
     <motion.div className="mt-10 flex flex-col sm:flex-row gap-4" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.25 }}>
      <a
-      href="#contact"
+      target='_blank'
+      href="https://api.whatsapp.com/send/?phone=%2B14155238886&text=join+serve-cent&type=phone_number&app_absent=0"
       className="inline-flex items-center justify-center gap-3 bg-white text-blue-400 px-8 py-3 rounded-full font-semibold shadow-xl shadow-accent/40 hover:bg-accent/90 transition transform hover:scale-[1.02]"
      >
       Get Started on WhatsApp
