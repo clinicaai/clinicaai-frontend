@@ -44,7 +44,7 @@ return(
    </div>
    <motion.div className="flex-1 w-full max-w-md mt-10 md:mt-0"  transition={{ delay: 0.3 ,duration: 1, ease:'easeIn'}} initial={{opacity:0,y:50}} whileInView={{opacity: 1, y:0}} whileHover={{ y: -8, boxShadow: '0 10px 20px rgba(0, 0, 0, 0.08)' }} >
     <div className="bg-white rounded-3xl shadow-2xl border-2 border-gray-100 p-4">
-     <div className="h-[28rem] w-full rounded-2xl bg-gray-50 flex flex-col overflow-hidden border border-gray-200">
+     <div className="h-112 w-full rounded-2xl bg-gray-50 flex flex-col overflow-hidden border border-gray-200">
       <div className="flex items-center gap-3 p-4 bg-white border-b">
         <div className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold text-lg">CB</div>
        <div className="flex-1">
@@ -53,8 +53,14 @@ return(
        </div>
       </div>
       <div className="flex-1 p-4 overflow-auto space-y-3">
+        <div className="ml-auto max-w-[50%] bg-[#c6f5f8] text-gray-800 px-3 py-2 rounded-xl rounded-tr-none shadow-sm">You: join serve-cent</div>
+        <div className="mr-auto max-w-[90%] bg-white border border-gray-200 text-gray-800 px-3 py-2 rounded-xl rounded-tl-none shadow-md">Clinicabot: You are all set! The sandbox can now send/receive messages from whatsapp. Reply stop to leave the sandbox any time</div>
+        <div className="ml-auto max-w-[50%] bg-[#c6f5f8] text-gray-800 px-3 py-2 rounded-xl rounded-tr-none shadow-sm">You: /help</div>
+        <div className="mr-auto max-w-[90%] bg-white border border-gray-200 text-gray-800 px-3 py-2 rounded-xl rounded-tl-none shadow-md">Clinicabot Commands: 
+          <br /><strong>/help</strong> - show help<br /> <strong>/reminder</strong>  - create reminder<br /> <strong>/location</strong> - share ur area.....
+        </div>
         <div className="ml-auto max-w-[80%] bg-[#c6f5f8] text-gray-800 px-3 py-2 rounded-xl rounded-tr-none shadow-sm">You: body dey hot and I dey vomit</div>
-        <div className="mr-auto max-w-[90%] bg-white border border-gray-200 text-gray-800 px-3 py-2 rounded-xl rounded-tl-none shadow-md">Clinicabot: Thanks — please sip water, rest, monitor your temp. If vomiting persists, visit nearest clinic.</div>
+        <div className="mr-auto max-w-[90%] bg-white border border-gray-200 text-gray-800 px-3 py-2 rounded-xl rounded-tl-none shadow-md">Clinicabot: Thanks - please sip water, rest, monitor your temp. If vomiting persists, visit nearest clinic.</div>
         <div className="ml-auto max-w-[70%] bg-[#c6f5f8] text-gray-800 px-3 py-2 rounded-xl rounded-tr-none shadow-sm">You: Where I fit check for test?</div>
         <div className="mr-auto max-w-[80%] bg-white border border-gray-200 text-gray-800 px-3 py-2 rounded-xl rounded-tl-none shadow-md">Clinicabot: Sending nearest diagnostic centers... (Click to view map)</div>
       </div>
